@@ -1,0 +1,139 @@
+.accordion {
+ 	width: 100%;
+  margin: 0 auto;  
+ 	max-width: 640px;
+ 	height: auto;
+ 	background: #e8e8e8;
+ 	z-index: 101;
+ 	position: absolute;
+  top: 0px;
+}
+
+.accordion .link {
+  width:100%;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.accordion .link img {
+ vertical-align: bottom; 	
+}
+
+.accordion i.fa-chevron-circle-down {
+	position: absolute;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.accordion  i.fa-chevron-circle-down {
+	right: 1%;
+  top: 70%;
+	left: auto;
+  font-size: 20px;
+  color: #40b0c1;
+}
+
+.accordion .open i.fa-chevron-circle-down {
+  color: #de0000;
+}
+
+.accordion .open i.fa-chevron-circle-down {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.accordion li.default .submenu {display: block;}
+/*Submenu*/
+ .submenu {
+ 	display: none;
+ 	background: #e8e8e8;
+ 	font-size: 14px;
+ }
+
+ .submenu .visitPage {
+ 	display: block;
+ 	-webkit-transition: all 0.25s ease;
+ 	transition: all 0.25s ease;
+  text-align: center; 
+  font-size: 12px;
+  font-weight: 700;
+  margin: 10px auto; 
+  width:28%;
+ }
+
+  .submenu .visitPage a {
+  color: #ffffff;
+ }
+
+.submenu .rGetCouponBtn {
+    width: 91%;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    background: #000000;
+    border: 1px solid #000000;
+    font-weight: 600;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    top: 7px;
+    margin: auto; 
+    display: block;
+  }
+
+  .submenu .rSuccessMessage {
+    content: "";
+    position: absolute;
+    width: 100.3%;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px 4px 4px 4px;
+    color: #000;
+    border: 1px solid #b2b2b2;
+    background-color: #b2b2b2;
+    top: -1px;
+    left: -1px;
+    z-index: 1000;
+    display: block;
+  }
+
+  .submenu .cpncode{
+      width:90%;
+      background:#ffffff;
+      color:#000000;
+      font-family: Arial;
+      font-size:16px;
+      margin: auto; 
+      border: 1px solid #000000;
+      text-align: center;
+      line-height: 26px;
+  }
+
+  .submenu .mb-cpn-desc{
+    margin: 10px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #ca3929;
+  }
+
+  .submenu .social-link{
+    text-align: center;
+  }
+
+  .submenu .social-link li{
+    display: inline;
+    list-style: none;
+  }
+
+  .submenu .mb-cpn-desc p{
+    margin: 5px;
+  }
+
+}

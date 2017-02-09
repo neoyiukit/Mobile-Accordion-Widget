@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample Accordion Widget</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      <!-- container -->
+  <div id="accordion" class="accordion">
+    <div>
+      <div class="link"><img src="http://www.andmyothersite.com/wp-content/uploads/2014/06/gp_pr_blk_640x100_us_static_5k_C.jpg" alt="coupon"><i class="fa fa-chevron-circle-down"></i></div>
+      <div class="submenu">
+        <a class="ui google plus button visitPage" href="https://play.google.com/store?hl=en"><i class="google plus icon"></i>Google Play</a>
+        <div class="cpncode"><b id="coupon_code">XXXX-XXXX-XXXX-XXXX</b></div>
+        <div class="rGetCouponBtn" data-clipboard-target="#coupon_code" data-successText="Copied!">Get Coupon</div>
+              <div id="rGetCouponConfig" data-successText="Copied!"></div>
+        <div class="ui divider"></div>
+        <div class="mb-cpn-desc">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </p>
+        </div>
+        <ul class="social-link"><li class="ui circular facebook icon button">
+            <i class="facebook icon"></i>
+          </li>
+          <li class="ui circular twitter icon button">
+            <i class="twitter icon"></i>
+          </li>
+          <li class="ui circular linkedin icon button">
+            <i class="linkedin icon"></i>
+          </li>
+          <li class="ui circular google plus icon button">
+            <i class="google plus icon"></i>
+          </li>
+          <li><div class="ui labeled button" tabindex="0">
+          <div class="ui red button">
+            <i class="heart icon"></i> Like
+          </div>
+          <a class="ui basic red left pointing label">
+            2,345
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+<script src="js/coupon.js"></script>
+</body>
+</html>
